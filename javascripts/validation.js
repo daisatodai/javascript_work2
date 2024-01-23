@@ -2,7 +2,6 @@ function emailValidation() {
   const emailConfirm = document.getElementById('email_confirm');
   const email = document.getElementById('email');
   
-  // イベントを使用して入力フィールドの変更を監視
   emailConfirm.addEventListener('input', e => {
     e.preventDefault();
     
@@ -29,7 +28,7 @@ function emailValidation() {
 
       setTimeout(() => {
         mytable.deleteRow(mytr.rowIndex);
-      }, 30000);
+      }, 3000);
     }
   });
 }

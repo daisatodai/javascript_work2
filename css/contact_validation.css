@@ -36,6 +36,9 @@ body {
   width: 75%;
   border: solid 1px #beb9b7;
 }
+.alert_cell{
+  background-color: rgba(230,169,171,.5);
+}
 .contact_content {
   height: 100px;
 }
@@ -45,7 +48,7 @@ body {
 }
 .contact_input input, select {
   height: 50px;
-}
+}//
 .contact_input textarea {
   height: 100px;
 }
@@ -78,7 +81,4 @@ body {
 }
 .alert {
   color: #d14539;
-}
-.alert_cell{
-  background-color: rgba(230,169,171,.5);
 }
